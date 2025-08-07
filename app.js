@@ -19,4 +19,6 @@ app.use('/api/testimonials', testimonialRoutes);
 
 app.get('/', (req, res) => res.send('API is running...'));
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+// Tambahkan ini di akhir app.js
+module.exports = app;
+
