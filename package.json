@@ -1,7 +1,7 @@
 {
   "name": "express-backend",
   "version": "1.0.0",
-  "description": "Backend API with Express.js for Vercel",
+  "description": "Backend API with Express.js",
   "main": "api/index.js",
   "scripts": {
     "start": "node api/index.js"

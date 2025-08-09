@@ -1,5 +1,3 @@
-// api/index.js
-
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
@@ -21,5 +19,5 @@ app.use('/api/testimonials', testimonialRoutes);
 
 app.get('/', (req, res) => res.send('API is running...'));
 
-// Export handler for Vercel
+// Export as serverless function
 module.exports.handler = serverless(app);
